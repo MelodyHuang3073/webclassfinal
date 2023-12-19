@@ -1,0 +1,36 @@
+.cellWithImg {
+  display: flex;
+  align-items: center;
+}
+.cellImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+/* pending(一開始) user office(or officePending) admin(assign) */
+.cellWithStatus {
+  padding: 5px;
+  border-radius: 5px;
+}
+.user {
+  background-color: rgba(0, 128, 0, 0.08);
+  color: green;
+}
+.admin {
+  background-color: rgba(10, 3, 105, 0.05);
+  color: rgb(32, 110, 218);
+}
+.office {
+  background-color: rgba(10, 3, 105, 0.05);
+  color: goldenrod;
+}
+.officePending {
+  background-color: rgba(255, 217, 0, 0.05);
+  color: rgb(247, 140, 161);
+}
+.pending {
+  background-color: rgba(255, 0, 0, 0.05);
+  color: crimson;
+}
