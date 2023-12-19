@@ -202,7 +202,7 @@ export default function useQA() {
     if (QaCanCheck && QA.sendResponse == 0) {
       //發信
       const data = {
-        email: "qampusai@gmail.com",
+        email: user.user.email,
         subject: QA.question,
         html: QA.answer,
       };
